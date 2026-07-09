@@ -20,5 +20,16 @@ Thumbs.db
 # Claude
 .claude/
 
+# ZCode
+.zcode/
+
 # Test
 test/
+*_test.json
+lookup_test.json
+offcode_test.json
+offstore_test.json
+
+# Python (연습용 스크립트)
+__pycache__/
+*.pyc

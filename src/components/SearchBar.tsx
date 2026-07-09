@@ -2,12 +2,7 @@
 
 import { useState } from "react";
 
-type QueryType = "Keyword" | "Title" | "Author" | "Publisher";
-
-interface SearchBarProps {
-  onSearch: (query: string, queryType: QueryType) => void;
-  isLoading: boolean;
-}
+import { QueryType, SearchBarProps } from "@/types";
 
 const QUERY_TYPES: { value: QueryType; label: string }[] = [
   { value: "Keyword", label: "전체" },
